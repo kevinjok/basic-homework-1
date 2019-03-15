@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main(void)
+{
+	int a,b,c;
+	printf("請輸入出生年月日\n");
+	printf("年:");
+	scanf("%d",&a);
+	printf("月:");
+	scanf("%d",&b); 
+	printf("日:");
+	scanf("%d",&c); 
+	printf("你的出生年月日為:%d年%d月%d日",a,b,c);
+	system("pause");
+}	
